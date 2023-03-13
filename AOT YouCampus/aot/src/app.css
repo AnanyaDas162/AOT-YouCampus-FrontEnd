@@ -1,0 +1,78 @@
+*{
+    border :0;
+    margin: 0;
+    padding: 0;
+}
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(347.68deg, #010B13 20.23%, #07D3AF 100%);
+}
+.App-header .description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.top-heading{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    color: #FFFFFF;
+    text-shadow: 0 0 3px #090327, 0 0 5px #05055e;
+    padding-top: 20%;
+}
+.application-heading{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.description-container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    overflow: hidden;
+    height: 21%;
+    padding-left:2%;
+    padding-right: 2%;
+}
+.description{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 81%;
+    padding-left: 3%;
+}
+.mid-description-heading{
+    font-family: helvetica;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+.last-description-para{
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.icon-combinator{
+    overflow: inherit;
+    height: 68%;
+    width: 46%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
